@@ -44,4 +44,4 @@ const chatMessages = [
   },
 ];
 
-module.exports = { data: chatMessages };
+module.exports = chatMessages;
