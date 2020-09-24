@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.messages {
+  width: 60%;
+  border: solid;
+  margin: 1rem auto 3rem auto;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: #191970;
+  width: 80%;
+  height: 2rem;
+  margin: 3rem auto 3rem auto;
+  background-color: #f0f8ff;
+  border-radius: 0.9rem;
+}
+
+#submit {
+  font-size: 1.6rem;
+  width: 13rem;
+  margin: auto;
+  height: 3rem;
+  margin: 2rem auto 2rem auto;
+  border: none;
+  border-radius: 0.9rem;
+
+  transition: background-color 1s;
+}
+
+#submit:hover {
+  background-color: #ffe4e1;
+  transition: background-color 1s;
+}
+
+#typemessage {
+  width: 40rem;
+  height: 3rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0.9rem;
+}

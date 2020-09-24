@@ -11,7 +11,26 @@ function renderMessage(x) {
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">{chatMessages.map(renderMessage)}</header>
+      <header className="App-header">
+        <div className="messages">{chatMessages.map(renderMessage)}</div>
+        <div className="inputs">
+          <form id="form">
+            <input
+              name="typemessage"
+              id="typemessage"
+              type="text"
+              placeholder="Enter a message"
+            />
+            <input
+              name="submit"
+              id="submit"
+              type="submit"
+              value="Send Message"
+              className="btn"
+            />
+          </form>
+        </div>
+      </header>
     </div>
   );
 };
