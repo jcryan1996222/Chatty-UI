@@ -37,7 +37,7 @@
   }
 }
 
-.messages {
+.messages-container {
   width: 60%;
   border: solid;
   margin: 1rem auto 3rem auto;
@@ -57,7 +57,7 @@ p {
   border-radius: 0.9rem;
 }
 
-#submit {
+.submit-button {
   font-size: 1.6rem;
   width: 13rem;
   margin: auto;
@@ -69,12 +69,12 @@ p {
   transition: background-color 1s;
 }
 
-#submit:hover {
+.submit-button:hover {
   background-color: #ffe4e1;
   transition: background-color 1s;
 }
 
-#typemessage {
+.chat-message-input {
   width: 40rem;
   height: 3rem;
   font-size: 2rem;
